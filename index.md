@@ -32,7 +32,7 @@ These Paths are designed to be self-sufficient. Regardless of your experience le
 
 Web Developers create interactive web-based applications. This includes everything but the absolute most simple websites. If your goal is to build awesome things on the web, start here.
 
-## [iOS Development](iOS-development "iOS Development Path Link")
+## [iOS Development](ios-development "iOS Development Path Link")
 
 iOS is the operating system for iPhones and iPads. Learn how to program the
 tiny computer in your pocket by launching a simple to-do list app, and adding features as you learn.
