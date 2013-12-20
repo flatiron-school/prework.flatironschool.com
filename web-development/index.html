@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Flatiron School Prework - Web Development</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="/css/inconsolata.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/highlight.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/toc.css">
+
+    <!-- [if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.toc.js"></script>
+
+    <meta property="og:title" content="Flatiron School Prework" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="http://prework.flatironschool.com" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="Flatiron School Prework" />
+    <meta property="fb:admins" content="8600468" />
+  </head>
+  <body data-spy="scroll" data-target=".sidebar-nav" data-offset="40">
+
+  <div class="fixed sidebar-nav nav hidden-phone">
+    <div class="well">
+      <ul class="nav nav-list sidebar-nav">
+<li style="padding-top: 4px">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://prework.flatironschool.com" data-text="@flatironschool's Prework" data-via="flatironschool" data-related="flatironschool" data-hashtags="learntocode" data-dnt="true">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+          <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=312818082166522";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+
+          <div class="fb-like" data-href="http://prework.flatironschool.com" data-send="false" data-layout="box_count" data-width="55" data-show-faces="false"></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span9" id="content">
+        <div class="row-fluid">
+          <div class="document">
+            <h1>Web Development</h1>
+
+<p>The first version of the prework we tried to assemble all of the best resources
+for learning to build a web application in Rails. With our students, we noticed
+that the pre-work wasn&#39;t preparing them as well as it could have. We were
+missing a big opportunity. Our students expressed that the pre-work went for
+breadth over depth. Rather than honing in on ruby, the meat of our curriculum,
+a lot of time was spent on HTML and CSS which is an important but secondary
+piece.</p>
+
+<p>We strongly belive that learning should have context, and you should know what
+your goals are.  Each section will address which learning objectives it will
+cover, and at the beginning we expect all of you to check out the Ruby
+assesment so you know what you&#39;ll be expected to do at the end.  There&#39;s an
+infinite amount of things you could spend your time learning, part of the value
+of the prework is that we can narrow the scope to only the most essential.  If
+you can achieve fluency in the following topics we believe you&#39;ll flourish at
+the Flatiron School.</p>
+
+<h2>Setup</h2>
+
+<p>To complete these units, you will need a <a href="http://teamtreehouse.com/">Treehouse</a>
+and
+<a href="http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==">CodeSchool</a>
+account. They
+are each normally $25 a month, so figure you might spend $50-$100 depending on
+how quickly you get through the material. So far the fine folks at
+<a href="http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==">CodeSchool</a>
+have created a $9 trial month for all Flatiron Preworkers. Register using that
+link. Treehouse will offer something similar soon. You also will need a
+<a href="http://codeacademy.com/">CodeAcademy</a> account which is free.</p>
+
+<p>You should also have a Rails Development environment setup. There are lots of
+guides for that on the internet and depending on your OS and setup, it&#39;s a bit
+of a process. You could always use the cross-platform <a href="http://railsinstaller.org/">Rails Installer</a>.</p>
+
+<p>Note to students accepted into the Flatiron School. We will provide you with an
+account to treehouse and codeschool, feel free to use your own to get started,
+but we cover those costs for the duration of the prework and semester.</p>
+
+<h2>Thoughts</h2>
+
+<p>One of the challenges in learning how to code is that you probably don&#39;t even
+know what you&#39;re supposed to learn. When creating this prework, we had 4 goals
+in mind.</p>
+
+<ol>
+<li><p><strong>Full Stack</strong></p>
+
+<p>We&#39;ll present the full stack of technologies required to build a webapp from
+the ground up. We don&#39;t care if you use ERB or HAML. The web is built on HTML
+and everyone should learn it. Whether NoSQL or RDBMS, understanding the
+fundamentals of schema design and SQL is crucial. Students shouldn&#39;t shy away
+from depth. How can you be a web developer without a proficiency in these
+skills?</p></li>
+<li><p><strong>Linear Progression</strong></p>
+
+<p>The material is presented in order, going from web basics and computer
+basics, to markup, to styling, to version control, to programming, and then
+to databases and web frameworks. You learn the basics of code through Ruby
+and then finally move to Rails that builds upon the rest. Thus you start at
+the lowest level, the literal HTML the browser renders, and progress up
+through levels of abstraction until you finally get to the kitchen sink that
+is the Rails framework. As a beginner, don&#39;t try to learn Rails without
+knowing basic HTML/CSS and ruby. It&#39;s a disservice to your education.</p></li>
+<li><p><strong>Curated Resources</strong></p>
+
+<p>There is such a plethora of amazing content on learning to code. We liked the
+consistency of going to a few sources that all shared common interfaces and
+learning patterns, like videos and interactive portions. So this isn&#39;t a
+complete list of all the resources, but more a curated list of what we think
+works well together (with lots of feedback from alumni). We would love it if
+you submitted a github issue with more materials you&#39;ve enjoyed.</p></li>
+<li><p><strong>Language Agnosticism</strong></p>
+
+<p>In the end, programming is about abstractions and expressions. The mechanics
+of code are universal and exist in all modern languages, like python, ruby,
+and javascript. We teach Ruby because we love it. Thinking your language
+choice, especially as a beginner, matters, is like thinking that you can only
+write poetry in English and not in Spanish. Obviously the beauty of poetry is
+in rhyme and meter, in metaphor and simile, in cadence and rhythm, not in the
+king&#39;s English. Why should code be any different? At Flatiron, you&#39;re
+learning how to think, how to break problems down, how to express yourself,
+how to abstract ideas, and how to work together. We just learn that through
+Ruby.</p></li>
+</ol>
+
+<h2>Learning Objectives</h2>
+
+<p>The goal of this tutorial is to be able to do the following:</p>
+
+<ol>
+<li>Be comfortable navigating your development environment</li>
+<li>Understand where programming skills fit into the &quot;web&quot;</li>
+<li>Understand what pieces make up a web application</li>
+<li>Develop a level of comfort with the most common ruby patterns in web development</li>
+<li>Understand the basics of version control and why it is used</li>
+<li>Have a basic understanding of HTML including forms</li>
+<li>Through Rails you should learn the following:
+
+<ul>
+<li>RESTful interfaces</li>
+<li>HTTP</li>
+<li>Routing</li>
+<li>Where ruby fits in the web development stack</li>
+</ul></li>
+<li>Develop a comfort with basic SQL queries</li>
+<li>Have a basic understanding of an ORM, ActiveRecord</li>
+<li>Develop a basic knowledge of HTML and CSS</li>
+</ol>
+
+<h1>The Basics</h1>
+
+<h2>Term Definitions</h2>
+
+<p>Thanks to the amazing team at Skillcrush, lots of <a href="http://skillcrush.com/terms/">tech
+terms</a> are artfully explained. These are the ones
+you 100% need to know.</p>
+
+<dl>
+<dd><a href="http://www.skillcrush.com/terms/domain.html">Domain</a></dd>
+  <dt><p>Ever wonder what that thing in the top of the browser is?</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/pop-imap.html">POP & IMAP</a></dd>
+  <dt><p>POP, IMAP, SMTP Oh My! It's only email, don't be scared.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/api.html">API</a></dd>
+  <dt><p>We're building programs that can talk to other programs. Their APIs are their languages. Sort of.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/wysiwyg.html">WYSIWYG</a></dd>
+  <dt><p>You can't always get what you want, but sometimes, What You See Is What You Get.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/ipaddress.html">IP Address</a></dd>
+  <dt><p>There's no place like 127.0.0.1, there's no place like 0.0.0.0, there's no place like localhost.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/web-server.html">Web Server</a></dd>
+  <dt><p>Apache, Puma, Unicorn, Thin, IIS, Mongrel, don't be scared, they are just the beasts behind the world wide web.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/bugs.html">Bugs</a></dd>
+  <dt><p>The term 'debugging' was coined by <a href="http://en.wikipedia.org/wiki/Grace_Hopper">Grace Hopper</a> when she literally removed a moth from her computer to get it working.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/dns.html">DNS</a></dd>
+  <dt><p>Finally understand how <code><a href="http://74.125.228.4">74.125.228.4</a></code> actually means google.com</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/cloud.html">The Cloud</a></dd>
+  <dt><p>It's like instead of your head being in the clouds, it's all your infrastructure.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/command-line.html">Command Line</a></dd>
+  <dt><p>Live deep in the nix heartland and become a loving extension of the shell.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/version-control.html">Version Control</a></dd>
+  <dt><p>Rule 1. Never lose code. Rule 2. Never lose code.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/grid-systems.html">Grid Systems</a></dd>
+  <dt><p>Just because we're not designers doesn't mean we shouldn't appreciate and respect their grids.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/rails.html">Rails</a></dd>
+  <dt><p>Not liking Ruby on Rails is like not liking parfait.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/cookies.html">Cookies</a></dd>
+  <dt><p>There's probably a pun we could come up with, but we take security seriously.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/404-error.html">404 Error</a></dd>
+  <dt><p>The web's <a href="http://fruit.gs/404.html">best</a> <a href="https://github.com/404">easter</a> <a href="http://seatgeek.com/404">egg</a>.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/responsive-design.html">Responsive Design</a></dd>
+  <dt><p>Keep your mind like water, but your design should be fluid and screen independent.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/seo.html">SEO</a></dd>
+  <dt><p>Despite what you might read, it's basically just black magic, the dark arts, the voodoo that gives traffic.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/hexidecimal.html">Hex</a></dd>
+  <dt><p>Because green to you might not be green to me. So there's these really specific codes we use for colors.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/ruby.html">Ruby</a></dd>
+  <dt><p>The. Best. Programming. Language. Ever. Period. We. Promise.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/cms.html">CMS</a></dd>
+  <dt><p>All applications are basically just content management systems anyway.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/pseudocode.html">Pseudo Code</a></dd>
+  <dt><p>First learn to express yourself. Then learn to code.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/https.html">HTTPS</a></dd>
+  <dt><p>Insecure content warnings? HTTP Sniffing? Here's why.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/open-source.html">Open Source</a></dd>
+  <dt><p>It's sort of impossible for me to quantify the impact open source software has made, but at <a href="http://trends.builtwith.com/Web-Server/Apache">least 64%</a> of the top million websites are powered by it.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/ajax.html">AJAX</a></dd>
+  <dt><p>And <a href="http://www.adaptivepath.com/ideas/ajax-new-approach-web-applications">one day in February 2005</a>, the Internet suddenly felt different.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/frontendbackend.html">Frontend / Backend</a></dd>
+  <dt><p>What's the difference? Turns out, less and less.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/javascript.html">Javascript</a></dd>
+  <dt><p>The most pervasive and ubiquitous programming language since Flash.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/programming-languages.html">Programming</a></dd>
+  <dt><p>It's awesome.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/database.html">Database</a></dd>
+  <dt><p>Just think Excel spreadsheet on crack. Better. We mean better.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/css.html">CSS</a></dd>
+  <dt><p>We could never love anyone that didn't appreciate the importance of a separation of content and style.</p></dt>
+
+  <dd><a href="http://www.skillcrush.com/terms/html.html">HTML</a></dd>
+  <dt><p>All documents should come in this format.</p></dt>
+  </dl>
+
+<h2 class="clear"></h2>
+
+<h2>The Command Line</h2>
+
+<p><em>Min 2hr Max 6hr</em></p>
+
+<p>The command line is your home base. It&#39;s probably one of the most important
+differences between a consumer of a computer, and a user. Many developers have
+all sorts of crazy short cut keys set up so that they can use their computer
+solely from the command line without ever having to reach for the mouse. It&#39;s
+vitaly important that you start thinking like a developer, rather than a
+consumer. Getting comfortable with the command line is the first step. If you
+feel like you&#39;re spending too much time on this section, and you&#39;ve
+accomplished the learning objectives, move on.</p>
+
+<h3>Learning Objectives</h3>
+
+<ol>
+<li>Navigate a file structure</li>
+<li>Use your terminal to type commands</li>
+<li>Make files and directories from the command line</li>
+<li>Open files from the command line</li>
+</ol>
+
+<h3>Tasks</h3>
+
+<h3><a href="http://bit.ly/command-line-tutorial" title="Command Line Tutorial Link">Command Line Tutorial</a></h3>
+
+<p><a href="http://bit.ly/command-line-tutorial" title="Command Line Tutorial Link">http://bit.ly/command-line-tutorial</a></p>
+
+<p>A short tutorial on some bash basics written by the wonderful team at Flatiron</p>
+
+<h3><a href="http://teamtreehouse.com/library/console-foundations-2#getting-started-with-the-console" title="Getting Started With the Console Link">Getting Started with the Console</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/console-foundations-2#getting-started-with-the-console" title="Getting Started With the Console Link">http://teamtreehouse.com/library/console-foundations-2#getting-started-with-the-console</a></p>
+
+<h3><a href="http://teamtreehouse.com/library/programming/console-foundations/environment-and-redirection" title="Environment and Redirection Link">Environment and Redirection</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/programming/console-foundations/environment-and-redirection" title="Environment and Redirection Link">http://teamtreehouse.com/library/programming/console-foundations/environment-and-redirection</a></p>
+
+<p><a href="http://teamtreehouse.com/library/console-foundations-2" title="Console Foundation Treehouse Link">Console Foundations</a> is a great video series by Treehouse that
+covers lots of Bash Stuff. Some of it is more advanced, so we only included a
+few sections we feel are crucial. But feel free to skip around. The stuff about
+Environment Variables and PATHS is important. But it&#39;s short and worth going
+through at least once.</p>
+
+<p><br /></p>
+
+<h3>Some Bonus Material</h3>
+
+<p>The following are great resources, they just are a bit advanced and longer. We
+highly recommend you putting in the time to read and go through these examples,
+but don&#39;t worry if they are confusing. Do your best, always.</p>
+
+<h3><a href="http://cli.learncodethehardway.org/book/" title="Learn the Command Line the Hard Way Link">Learn the Command Line the Hard Way</a></h3>
+
+<p><a href="http://cli.learncodethehardway.org/book/" title="Learn the Command Line the Hard Way Link">http://cli.learncodethehardway.org/book/</a></p>
+
+<p>The venerable <a href="http://programming-motherfucker.com/" title="Programming
+Motherfucker">Zed Shaw</a> gives us a short book about your shell. Not the easiest or best
+resource, but it&#39;s still pretty good.</p>
+
+<h3><a href="http://blog.teamtreehouse.com/command-line-basics" title="Command Line Basics">Command Line Basics</a></h3>
+
+<p><a href="http://blog.teamtreehouse.com/command-line-basics" title="Command Line Basics Link">http://blog.teamtreehouse.com/command-line-basics</a></p>
+
+<h2>HTML &amp; CSS</h2>
+
+<p><em>Min 15hr Max 20hr</em></p>
+
+<p>The source of all content on the web, HTML is a crucial markup syntax to understand. We will be covering very little HTML through the course and we seriously expect you to know what the basic tags are and when to use them.</p>
+
+<h3>Learning Objectives</h3>
+
+<ol>
+<li>HTML Fundamentals</li>
+<li>HTML Text Formatting</li>
+<li>HTML Tables, Forms, and Iframes</li>
+<li>HTML5 Elements</li>
+<li>CSS Fundamentals</li>
+<li>CSS Selector Statements</li>
+<li>Building Page Layouts</li>
+<li>Positioning</li>
+<li>Rollover Image Sprites</li>
+<li>Responsive Layouts</li>
+</ol>
+
+<h3><a href="http://www.skillshare.com/Build-a-HTML-and-CSS-Website-From-Scratch/1216366887" title="Link to Building a HTML and CSS Website From Scratch">Building a HTML and CSS Website From Scratch</a></h3>
+
+<p><a href="http://www.skillshare.com/Build-a-HTML-and-CSS-Website-From-Scratch/1216366887" title="Link to Building an HTML and CSS Website From Scratch">http://www.skillshare.com/Build-a-HTML-and-CSS-Website-From-Scratch/1216366887</a></p>
+
+<p>Now it is time to investigate building a website from scratch. One of our
+instructors, Jon Grover, has an excellent SkillShare class that will take you
+step-by-step through building a responsive static website. <em>For Flatiron
+Students there is a discount code to take the course for free, please contact
+us.</em></p>
+
+<p><br /></p>
+
+<h3>Some Bonus Material</h3>
+
+<h3><a href="http://teamtreehouse.com/library/websites/javascript-foundations" title="Javascript Foundations Link">Javascript Foundations</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/websites/javascript-foundations" title="Javascript Foundations Links">http://teamtreehouse.com/library/websites/javascript-foundations</a></p>
+
+<p>This is a beautiful guide that we recommend everyone read through as quickly as
+possible. Don&#39;t worry if you don&#39;t fully understand this, the Treehouse unit
+below covers all this through videos and tests.</p>
+
+<h3><a href="http://teamtreehouse.com/library/websites/html" title="Treehouse HTML Basics">Treehouse HTML Basics</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/websites/html" title="Treehouse HTML Basics">http://teamtreehouse.com/library/websites/html</a></p>
+
+<p>This HTML tutorial helps you master HTML. Mastering HTML and its many elements
+is critical for any type of web professional. HTML or &quot;Hyper Text Markup
+Language&quot; describes the basic structure and content of a web page.</p>
+
+<h3><a href="http://www.codeschool.com/courses/functional-html5-css3" title="Advanced HTML5 &amp; CSS3 Link">Advanced HTML5 &amp; CSS3</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/functional-html5-css3">http://www.codeschool.com/courses/functional-html5-css3</a></p>
+
+<p>If you are familiar with HTML &amp; CSS already and were able to complete the
+Treehouse unit pretty easily, we recommend you try this unit. Especially if you
+are into aesthetics and advanced behaviors as it covers some amazing features
+of HTML &amp; CSS.</p>
+
+<h3><a href="http://teamtreehouse.com/library/websites/css-foundations-2" title="CSS Foundations / CSS3 Link">CSS Foundations / CSS3</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/websites/css-foundations-2">http://teamtreehouse.com/library/websites/css-foundations-2</a></p>
+
+<p>Cascading Style Sheets (CSS) is a language used to describe the visual look of
+a web page. Using CSS, it is possible to change colors, margin, padding, fonts,
+and much more.</p>
+
+<p>CSS3 (Cascading Style Sheets 3) is a superset of CSS that adds many new
+constructs and properties. Support for CSS3 is rapidly improving across all
+major browsers, making it a critical piece of technology for modern web
+professionals.</p>
+
+<h3><a href="http://www.codeschool.com/courses/css-cross-country" title="CSS Cross Country Link">CSS Cross Country</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/css-cross-country">http://www.codeschool.com/courses/css-cross-country</a></p>
+
+<p>A beautiful and interactive tutorial from the amazing people at CodeSchool.</p>
+
+<h3><a href="http://teamtreehouse.com/library/websites/build-a-responsive-website/" title="Responsive Websites Link">Responsive Websites</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/websites/build-a-responsive-website/">http://teamtreehouse.com/library/websites/build-a-responsive-website/</a></p>
+
+<p>The Smells Like Bakin&#39; cupcake company needs their website to work on tablets
+and phones. We will modify the code of their pre-existing website so that it is
+flexible and fits beautifully into a wide variety of screen resolutions and
+devices.</p>
+
+<h2>GIT</h2>
+
+<p><em>Min 1hr Max 4hr</em></p>
+
+<p>Git is a free and open source distributed version control system designed to
+handle everything from small to very large projects with speed and efficiency.</p>
+
+<h3>Learning Objectives</h3>
+
+<ol>
+<li>Have a basic understanding of what version control is</li>
+<li>Understand what git and github are, and how they are different </li>
+<li>Get a working version of Git on your system with your personal identity </li>
+<li>Understand and be able to perfom all basic local Git operations:
+ creating/cloning a repository, making changes, commiting changes, and
+ viewing history</li>
+</ol>
+
+<h3><a href="http://www.codeschool.com/courses/try-git" title="Try Git Link">Try Git</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/try-git">http://www.codeschool.com/courses/try-git</a></p>
+
+<p>Get an introduction to the basic concepts of Git version control.</p>
+
+<h4>WAT?</h4>
+
+<p>What is version control?!</p>
+
+<p>from Github&#39;s &quot;About Version Control&quot; Version control is a system that records
+changes to a file or set of files over time so that you can recall specific
+versions later. Even though the examples in this book show software source code
+as the files under version control, in reality any type of file on a computer
+can be placed under version control.</p>
+
+<h3><a href="http://git-scm.com/book/en/Getting-Started-About-Version-Control">Getting Starting with Version Control</a></h3>
+
+<p><a href="http://git-scm.com/book/en/Getting-Started-About-Version-Control">http://git-scm.com/book/en/Getting-Started-About-Version-Control</a></p>
+
+<p>A beginner guide from the Git Source Control Manual</p>
+
+<h4>Enter Git &amp; Github</h4>
+
+<p>Git is a set of tools for local version control. Github is website that hosts
+your code and allows remote version control.</p>
+
+<h3><a href="http://www.jahya.net/blog/?2013-05-git-vs-github">Difference Between Git and Github</a></h3>
+
+<p><a href="http://www.jahya.net/blog/?2013-05-git-vs-github">http://www.jahya.net/blog/?2013-05-git-vs-github</a></p>
+
+<h3><a href="https://help.github.com/articles/set-up-git">Git Basics and Setup</a></h3>
+
+<p><a href="https://help.github.com/articles/set-up-git">https://help.github.com/articles/set-up-git</a></p>
+
+<p>Now let&#39;s set up your local installation of git so that it knows who you are!</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">git config --global user.name &quot;Sandi Metz&quot;
+git config --global user.email sandimetz@example.com
+</code></pre></div>
+<p>Finally, go to <a href="http://github.com/">Github</a> and create an account if you haven&#39;t yet.</p>
+
+<p><br /></p>
+
+<h3>Some Bonus Material</h3>
+
+<h3><a href="http://www.codeschool.com/courses/git-real">Git Real</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/git-real">http://www.codeschool.com/courses/git-real</a></p>
+
+<p>A more advanced introduction to the core of version control with Git.</p>
+
+<h3><a href="http://gitimmersion.com/">Git Immersion</a></h3>
+
+<p><a href="http://gitimmersion.com/">http://gitimmersion.com/</a></p>
+
+<p>Git Immersion is a guided tour that walks through the fundamentals of Git,
+inspired by the premise that to know a thing is to do it.</p>
+
+<h3><a href="http://git-scm.com/book">The Git Book</a></h3>
+
+<p><a href="http://git-scm.com/book">http://git-scm.com/book</a></p>
+
+<p>The entire Pro Git book, written by Scott Chacon and published by Apress, is available here.</p>
+
+<h3><a href="http://git-scm.com/videos">Git Videos</a></h3>
+
+<p><a href="http://git-scm.com/videos">Git Videos</a></p>
+
+<p>Four videos covering some basics from the creators and maintainers of Git.</p>
+
+<h1>Programming</h1>
+
+<h2>Ruby</h2>
+
+<p><em>Min 20Hr Max 40Hr</em></p>
+
+<blockquote>
+<p>My conscience won’t let me call Ruby a computer language. That would imply
+that the language works primarily on the computer’s terms. That the language
+is designed to accomodate the computer, first and foremost. That therefore,
+we, the coders, are foreigners, seeking citizenship in the computer’s
+locale. It’s the computer’s language and we are translators for the world.</p>
+
+<p>But what do you call the language when your brain begins to think in that
+language? When you start to use the language’s own words and colloquialisms
+to express yourself. Say, the computer can’t do that. How can it be the
+computer’s language? It is ours, we speak it natively!</p>
+
+<p>We can no longer truthfully call it a computer language. It is coderspeak.
+It is the language of our thoughts.</p>
+
+<p><a href="http://mislav.uniqpath.com/poignant-guide/">_why&#39;s poignant guide to ruby</a></p>
+</blockquote>
+
+<p>Programming allows you to automate common, repetitive tasks on the computer.
+Developers use programming languages to write software, the software you
+interact with every day. From you alarm clock to your computer; from the web to
+the satellites orbiting our planet, software powers all of it.</p>
+
+<p>Ruby is a programming language that we can use to do any task that needs to be
+automated. For example, something that is really irritating is a cluttered
+&quot;Downloads&quot; folder on your Mac. We could write a program that moves a file to a
+new folder, based on it&#39;s file extension, whenever we download something. A
+&quot;scripting-language&quot; would be best suited for this task.</p>
+
+<p>Ruby is one of the most popular languages to create web applications. A web
+framework is a tool that makes developing for the web relatively simple. The
+most popular web frameworks for Ruby are Sinatra and Ruby on Rails. All of
+these languages and web frameworks are considered server side languages as they
+will be run on an actual web server.</p>
+
+<h3>Learning Objectives</h3>
+
+<ol>
+<li>Basic Ruby syntax</li>
+<li>Defining a method</li>
+<li>Looping and iteration</li>
+<li>Ruby data structures</li>
+<li>The concept of <code>self</code></li>
+</ol>
+
+<h3><a href="http://www.codecademy.com/tracks/ruby">The CodeAcademy Ruby Track</a></h3>
+
+<p><a href="http://www.codecademy.com/tracks/ruby">http://www.codecademy.com/tracks/ruby</a></p>
+
+<p>We think the CodeAcademy Ruby Track is a comprehensive and engaging way to
+cover the fundementals of the Ruby Langauge. Do it all. The super super
+important parts are:</p>
+
+<ul>
+<li><a href="http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq?curriculum_id=5059f8619189a5000201fbcb">Intro to Ruby</a></li>
+<li><a href="http://www.codecademy.com/courses/ruby-beginner-en-MxXx5/0/1?curriculum_id=5059f8619189a5000201fbcb">Methods Methods Everwhere</a></li>
+<li><a href="http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7?curriculum_id=5059f8619189a5000201fbcb">Control Flow</a></li>
+<li><a href="http://www.codecademy.com/courses/ruby-beginner-en-JdNDe/0/1?curriculum_id=5059f8619189a5000201fbcb">Thtrings and Things</a></li>
+<li><a href="http://www.codecademy.com/courses/ruby-beginner-en-XYcN1?curriculum_id=5059f8619189a5000201fbcb">Loops and Iterators</a></li>
+<li><a href="http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6/0/1?curriculum_id=5059f8619189a5000201fbcb">Iteration Obfuscation</a></li>
+<li><a href="http://www.codecademy.com/courses/ruby-beginner-en-F3loB?curriculum_id=5059f8619189a5000201fbcb">Data Structures</a></li>
+<li><a href="http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1?curriculum_id=5059f8619189a5000201fbcb">Data Structures Meet Iteration</a></li>
+</ul>
+
+<p>But again, we highly recommend you do it all, twice possibly.</p>
+
+<h3><a href="http://teamtreehouse.com/library/programming/ruby-foundations">Treehouse Ruby Foundations</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/programming/ruby-foundations">http://teamtreehouse.com/library/programming/ruby-foundations</a></p>
+
+<p>The Treehouse Ruby series is a great beginner resource. It&#39;s a bit slower
+paced, so feel free to move faster if you got through the CodeAcademy unit
+easily.</p>
+
+<h3><a href="http://pine.fm/LearnToProgram/">Learn to Program</a></h3>
+
+<p><a href="http://pine.fm/LearnToProgram/">http://pine.fm/LearnToProgram/</a></p>
+
+<p>Chris Pine&#39;s Learn to Program is a classic book that is mostly available online
+for free. Read it all. Then buy it and read it again. By the point in the 
+  prework, the fundementals of Ruby should be pretty clear. Pine&#39;s book is also 
+  available at: <a href="http://it-ebooks.info/book/36/">http://it-ebooks.info/book/36/</a></p>
+
+<h3><a href="http://bit.ly/flatiron-ruby-assessment">Flatiron School Ruby Assessment</a></h3>
+
+<p><a href="http://bit.ly/flatiron-ruby-assessment">http://bit.ly/flatiron-ruby-assessment</a></p>
+
+<p>Our assessment for basic Ruby knowledge. This is the high bar you can shoot for
+in your Ruby understanding. You shouldn&#39;t be able to complete this on your own,
+that&#39;s what we do at the Flatiron School!</p>
+
+<h3>Some Bonus Material</h3>
+
+<h3><a href="http://www.codeschool.com/courses/ruby-bits">Ruby Bits</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/ruby-bits">http://www.codeschool.com/courses/ruby-bits</a></p>
+
+<p>Learn all the little bits that make Ruby one of the most popular programming
+languages amongst non-programmers and programmers alike.</p>
+
+<h1>Web Development</h1>
+
+<p>There are many mediums, through which one can deliver applications. You can
+have Desktop Applications, <a href="http://en.wikipedia.org/wiki/Embedded_system">Embedded Applications</a> and Web Applications to name a
+few. At Flatiron School we focus on building Web Applications.</p>
+
+<p>In a previous section you built a static website using HTML and CSS. You used
+markup languages to tell the browser how to render the content you were
+displaying. In order to have the ability to interact with your users and store
+the information they give you, we&#39;ll need to add more technologies to our
+toolbelt. These technologies are usually referred to as your &quot;Stack.&quot;</p>
+
+<p>A stack usually includes the following:</p>
+
+<ul>
+<li>Operating System: a collection of software that manages computer hardware
+resources and provides common services for computer programs e.g. <a href="http://www.linux.org/">Linux</a></li>
+<li>Web Server: Software that helps deliver web content to a client e.g.
+<a href="http://wiki.nginx.org/Main">nginx</a></li>
+<li>Database: An organized collection of data. <a href="http://www.sqlite.org/">SQLite</a> for example.</li>
+<li>Programming Language, like <a href="http://www.ruby-lang.org/">Ruby</a></li>
+<li>A Web Framework like <a href="http://www.rubyonrails.org/">Ruby on Rails</a></li>
+</ul>
+
+<p>We&#39;ve already covered the basics of your operating system and done a brief
+intro to Ruby. Now we will do a short intro to the language that is used by
+most of the databases we will be using, SQL.</p>
+
+<h2>SQL &amp; Databases</h2>
+
+<p><em>Min 4hr Max 10hr</em></p>
+
+<p>In order for a web application to be useful it needs to store data, access that
+data and organize the data. This is the job of a database. Typically web apps
+respond to user input and do one of four things, create, read, update, or
+delete data in a database. Ruby serves as a kind of intermediary between the
+user and the database and Ruby can communicate with a database in its native
+language, which for our purposes is SQL.</p>
+
+<h3>Learning Objectives</h3>
+
+<ol>
+<li>Understand what a database is used for</li>
+<li>Be able to create, read, update and delete data</li>
+<li>Understand how you can relate two tables in a database (ex. products and categories)</li>
+<li>Be able to write a simple SQL join between two tables</li>
+</ol>
+
+<h3><a href="http://teamtreehouse.com/library/programming/database-foundations">Treehouse SQL Course</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/programming/database-foundations">http://teamtreehouse.com/library/programming/database-foundations</a></p>
+
+<p>The Treehouse SQL course is comprehensive and easy to follow. It uses MySQL,
+which is a powerful database server that we don&#39;t really use at Flatiron for
+teaching purposes, but learning how to install it and use its GUI isn&#39;t a waste
+of time. So feel free to gloss over the MySQL setup / specific stuff, but it&#39;s
+useful.</p>
+
+<h3><a href="http://zetcode.com/db/sqlite/">ZetCode SQL Course</a></h3>
+
+<p><a href="http://zetcode.com/db/sqlite/">http://zetcode.com/db/sqlite/</a></p>
+
+<p>A more technical introduction to SQL through SQLite3 and the Terminal. It&#39;s
+short and intense, but try to get through the entire thing. A nice bonus is if
+you want to start playing with SQLite and Ruby, go through the other <a href="http://zetcode.com/db/sqliteruby/">Zetcode
+SQLite and Ruby</a> tutorial.</p>
+
+<h2>Rails</h2>
+
+<p><em>Min 8hr Max 16hr</em></p>
+
+<p>To build a Rails application you&#39;ll need to be able to save and retrieve data
+from a database using SQL, send HTML and CSS back to the browser, navigate your
+computer using the command line, and use git to version control your source
+code. Because Rails requires so many skills at once, we don&#39;t want the focus of
+the prework to be Rails, but rather getting introduced to the concepts
+necessary to build modern web applications. Hopefully the first time we talk
+about Rails in the classroom, it won&#39;t be the first time you&#39;ve heard the terms
+controller or route, but it&#39;s also not the goal to master Rails before you get
+here. With that in mind, feel free to spend as much time as you&#39;d like
+exploring Rails through the following tutorials. However, we&#39;re going to cover
+all of this in depth during the semester so it&#39;s probably best to use these
+turorials as a guide for the component skills you&#39;ll need to build web
+applications. For example, how much Ruby do I need to know? Can be answered by
+building a Rails application and seeing how much Ruby you need to know.</p>
+
+<h3>Learning Objectives</h3>
+
+<ol>
+<li>Understand how to create a basic data model</li>
+<li>Posting data from a web form to create new objects in the database</li>
+<li>Controllers</li>
+<li>Routes and URLs</li>
+<li>The Params Object</li>
+<li>Gathering data from a database, sending the data from the controller to the view</li>
+</ol>
+
+<h3><a href="http://guides.rubyonrails.org/getting_started.html">Getting Started with Rails Guide</a></h3>
+
+<p><a href="http://guides.rubyonrails.org/getting_started.html">http://guides.rubyonrails.org/getting_started.html</a></p>
+
+<p>This guide covers getting up and running with Ruby on Rails. After reading it, you should be familiar with:</p>
+
+<ul>
+<li>Installing Rails, creating a new Rails application, and connecting your application to a database.</li>
+<li>The general layout of a Rails application.</li>
+<li>The basic principles of MVC (Model, View, Controller) and RESTful design.</li>
+<li>How to quickly generate the starting pieces of a Rails application.</li>
+</ul>
+
+<h3><a href="http://www.codeschool.com/courses/rails-for-zombies-redux">Rails for Zombies</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/rails-for-zombies-redux">http://www.codeschool.com/courses/rails-for-zombies-redux</a></p>
+
+<p>Ruby on Rails, the most popular framework in-use by Zombies. That&#39;s right, you can basically be brain dead and use Ruby on Rails. No offense to brain dead people or zombies.</p>
+
+<h3><a href="http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application">Building Facebook</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application">http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application</a></p>
+
+<h3><a href="http://teamtreehouse.com/library/programming/building-social-features-in-ruby-on-rails">Building Facebook II</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/programming/building-social-features-in-ruby-on-rails">http://teamtreehouse.com/library/programming/building-social-features-in-ruby-on-rails</a></p>
+
+<h3><a href="http://teamtreehouse.com/library/programming/advanced-social-features-in-ruby-on-rails">Building Facebook III</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/programming/advanced-social-features-in-ruby-on-rails">http://teamtreehouse.com/library/programming/advanced-social-features-in-ruby-on-rails</a></p>
+
+<p>That&#39;s right, in theory, if you&#39;ve gotten this far, you are ready to make a
+billion dollars and build a simple version of Facebook!</p>
+
+<h3><a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2">Michael Hartls Rails Tutorial</a></h3>
+
+<p><a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2">http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2</a></p>
+
+<p>This has long been the best Rails tutorial on the web. Please make sure you are
+using Rails version 3.2 This is a great project to get a sense of what a
+beginner web application is. The amount and complexity of the Ruby he uses in
+this tutorial is pretty minimal but you can start to get a sense of what Ruby
+it&#39;d be useful to know to be able to feel comfortable building web
+applications.</p>
+
+<p><br /></p>
+
+<h3>Some Bonus Material</h3>
+
+<h3><a href="http://www.codeschool.com/courses/rails-for-zombies-2">Rails for Zombies 2</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/rails-for-zombies-2">http://www.codeschool.com/courses/rails-for-zombies-2</a></p>
+
+<p>In part 2 of Rails for Zombies, you learn even more about how to use this
+amazing framework.</p>
+
+<h1>Advanced Topics</h1>
+
+<h2>Testing</h2>
+
+<h3><a href="http://www.codeschool.com/courses/testing-with-rspec">Testing with RSpec</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/testing-with-rspec">http://www.codeschool.com/courses/testing-with-rspec</a></p>
+
+<p>Write code that tests your code. If it seems like a post-modern nightmare,
+that&#39;s because it sort of is.</p>
+
+<h3><a href="http://www.codeschool.com/courses/rails-testing-for-zombies">Rails Testing for Zombies</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/rails-testing-for-zombies">http://www.codeschool.com/courses/rails-testing-for-zombies</a></p>
+
+<p>After eating all these brainz, you&#39;re probably pretty smart. Now learn how to prove that your code works.</p>
+
+<h2>Aesthetics</h2>
+
+<h3><a href="http://teamtreehouse.com/library/websites/website-basics/website-basics">Website Basics</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/websites/website-basics/website-basics">http://teamtreehouse.com/library/websites/website-basics/website-basics</a></p>
+
+<p>Beyond HTML and CSS, there are several basic technology skills that every web
+professional should know. Some of these include uploading files to the web via
+FTP or purchasing domains and hosting.</p>
+
+<h3><a href="http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics">Graphic Basics</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics">http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics</a></p>
+
+<p>Graphic basics is for developers and designers alike, to become familiar with
+the difference between vector and raster, units and increments and saving for
+the web.</p>
+
+<h3><a href="http://teamtreehouse.com/library/websites/aesthetic-foundations">Aesthetic Foundation</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/websites/aesthetic-foundations">http://teamtreehouse.com/library/websites/aesthetic-foundations</a></p>
+
+<p>Aesthetic Foundations will cover the elements and principles of art, along with
+color theory. This basic knowledge will provide a design language that enables
+more effective communication amongst designers and other team members.</p>
+
+<h2>Javascript</h2>
+
+<h3><a href="http://www.codeschool.com/courses/try-jquery">Try jQuery</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/try-jquery">http://www.codeschool.com/courses/try-jquery</a></p>
+
+<p>Simplify web development with the amazing javascript library jQuery, in use by
+over 220 million websites.</p>
+
+<h3><a href="http://www.codeschool.com/courses/jquery-air-captains-log">jQuery Ai, Captain&#39;s Log</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/jquery-air-captains-log">http://www.codeschool.com/courses/jquery-air-captains-log</a></p>
+
+<p>Now that you&#39;ve got the basics of javascript and jquery, take flight as a
+captain of the browser (or something)!</p>
+
+<h2>Best Practices</h2>
+
+<h3><a href="http://www.codeschool.com/courses/rails-best-practices">Rails Best Practices</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/rails-best-practices">http://www.codeschool.com/courses/rails-best-practices</a></p>
+
+<p>&quot;Any fool can write code for machines, it takes a programmer to write code for humans.&quot;</p>
+
+<h1>About</h1>
+
+<h2>Credits</h2>
+
+<p>First, we&#39;d love to thank all the amazing people who created these source
+materials. Most of it is from CodeSchool and Treehouse, with a bit from Zed
+Shaw, and some from the people at Skillcrush. Obviously there are a lot more
+resources out there for learning these topics. This guide is just my current
+preferences and tries to put them in a linear fashion so skills can build upon
+each other. Hope it helps someone. Oh and the theme for the site was purchased
+from <a href="https://wrapbootstrap.com/">WrapBootstrap</a>.</p>
+
+          </div>
+        </div>
+        <div id="footer">
+          <hr>
+          <footer>
+            Copyright &copy; 2013, Flatiron School
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+$(".document").toc ({
+  showAlways:true});
+  </script>
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33578770-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
+
+  <!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+      (function(d,s,i,r) {
+          if (d.getElementById(i)){return;}
+          var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+          n.id=i;n.src='//js.hubspot.com/analytics/'+(Math.ceil(new Date()/r)*r)+'/69751.js';
+          e.parentNode.insertBefore(n, e);
+      })(document,"script","hs-analytics",300000);
+  </script>
+  <!-- End of Async HubSpot Analytics Code -->
+
+  <a href="https://github.com/flatiron-school/prework.flatironschool.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+</body>
+</html>

@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Flatiron School Prework - iOS Development</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="/css/inconsolata.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/highlight.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/toc.css">
+
+    <!-- [if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.toc.js"></script>
+
+    <meta property="og:title" content="Flatiron School Prework" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="http://prework.flatironschool.com" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="Flatiron School Prework" />
+    <meta property="fb:admins" content="8600468" />
+  </head>
+  <body data-spy="scroll" data-target=".sidebar-nav" data-offset="40">
+
+  <div class="fixed sidebar-nav nav hidden-phone">
+    <div class="well">
+      <ul class="nav nav-list sidebar-nav">
+<li style="padding-top: 4px">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://prework.flatironschool.com" data-text="@flatironschool's Prework" data-via="flatironschool" data-related="flatironschool" data-hashtags="learntocode" data-dnt="true">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+          <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=312818082166522";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+
+          <div class="fb-like" data-href="http://prework.flatironschool.com" data-send="false" data-layout="box_count" data-width="55" data-show-faces="false"></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span9" id="content">
+        <div class="row-fluid">
+          <div class="document">
+            <h1>iOS Development</h1>
+
+<p>This list comes from keeping track of what has been useful and not useful from
+the past few years of learning iOS on my own. I&#39;m compiling this to be a sort
+of reference guide for the students in my upcoming class at <a href="http://flatironschool.com/iOScurriculum.html" title="Flatiron School iOS Curriculum">The Flatiron School</a>.</p>
+
+<p>This is meant to get you up to speed with development from no prior iOS
+experience. None of this covers the basics of computing/development though. </p>
+
+<p>Students learn in a plethora of ways. If you are an auditory learner there is 
+also a ton of great video content from
+<a href="https://itunes.apple.com/us/course/coding-together-developing/id593208016" title="Stanford iTunes U Link">Stanford</a> but the progression is pretty obvious so I didn&#39;t create a guide for
+that. I HIGHLY recommend the Stanford class.</p>
+
+<p>There is an infinite amount of stuff to learn on iOS. This is a list of what
+I&#39;ve found to be the most important for almost every app out there. A secondary
+goal of this prework is to limit the scope of learning before you get started.
+There really is nothing better than just writing a ton of code. Hopefully this
+list of resources can get you to writing code quickly.</p>
+
+<h2>Structure</h2>
+
+<p>This guide is separated out into the different big topics of iOS development.
+I am including advanced topics here mostly for completeness and for reference
+down the line. </p>
+
+<p>If you currently know very little, start with the beginner section and do
+all the topics. This should get you up to speed with iOS development and really
+I would just start writing code! Don&#39;t start looking into the advanced topics
+until you find a topic you <em>need</em> to learn.</p>
+
+<p>The Advanced and Referece/Library sections are for you to use once your feel
+comfortable with your skills. I really recommend completing all the beginner 
+materials before moving on to the advanced resources though. Once you look into
+developing apps that require the topics you can return here and find out more
+information and hopefully some links to start your research with.</p>
+
+<p>Also, each section contains a description of an example app you should be able
+to make. Feel free to try and make the app with the skills you have. If you
+have issues with making the app, raise an issue. Hopefully someone will help
+you out :)</p>
+
+<p>Last, the Learning Objectives are what I expect you to understand after reading
+the beginner materials. Remember the advanced materials are just for deep dives
+into topics!</p>
+
+<h3>Flatiron School Students</h3>
+
+<p>Flatiron School Students, your job is to go through each section until the
+Advanced iOS work. The Advanced iOS section at the end is if you
+are really interested and want to keep learning, but isn&#39;t required. Don&#39;t
+worry about the reference or library items. These are all things we will
+discuss and use in class. If you already have prior knowledge feel free to skip sections you
+feel comfortable with. The best way to learn is through writing a lot of code.
+While the ToDo list app I mention isn&#39;t required, I&#39;d <em>highly</em> recommend trying
+to write it.</p>
+
+<h2>Setup</h2>
+
+<p>I tried to use as many free resources as possible but ultimately you have to
+spend some money. You&#39;ll need to purchase <a href="http://www.amazon.com/Learning-iOS-Development-Hands--Fundamentals/dp/0321862961/ref=sr_1_1?ie=UTF8&amp;qid=1387385220&amp;sr=8-1&amp;keywords=learning+ios+development">Learning iOS Development: A Hands-on
+Guide to the Fundamentals of iOS Programming</a>
+ for a few of the items in this guide. It&#39;s an incredible book and it has been
+updated for iOS 7/Xcode 5.</p>
+
+<h2>Thoughts</h2>
+
+<h3>Breadth of Familiarity</h3>
+
+<p>This list of resources will not make you an expert by any means. The goal for
+this guide is breadth of knowledge over depth in any one topic. If you are
+particularly interested in a topic, feel free to check out the advanced
+resources and reference material. </p>
+
+<p>The best way to learn this stuff is still to just write a ton of code. In
+addition to checking out the advanced material on a certain topic, coding up
+the example apps is a great way to get a deeper understanding.</p>
+
+<h3>Minimum Viable Knowledge</h3>
+
+<p>Learning the topics in the order given allows you to start writing apps as soon
+as possible. That&#39;s the fun stuff, so I didn&#39;t want you to have to read for
+hours before getting your hands dirty. The goal is layers of quality. After the
+first section you will be able to write simple apps. Every new topic you learn
+will give you real skills to enhance your app. This means that if you are
+struggling with one topic it may be prudent to stay in that one topic and learn
+more. If you find other resources that helped you learn please raise and issue
+and I&#39;ll include it.</p>
+
+<h2>Getting Help</h2>
+
+<p>If you are confused on a topic, I doubt you&#39;re alone. </p>
+
+<p>Thankfully, there are a few resources available to you.
+The easiest is using the <a href="http://stackoverflow.com/questions/tagged/ios" title="StackOverflow iOS
+tagged homepage">iOS section on
+StackOverflow</a>. If the question is about a certain resource here, or about
+this guide in general please please please raise an issue on github. I&#39;ll look
+into it and hopefully give you a solution that everyone can use.</p>
+
+<h1>The Basics</h1>
+
+<h2>The Command Line</h2>
+
+<p><em>Min 2hr Max 6hr</em></p>
+
+<p>The command line is your home base. It&#39;s probably one of the most important
+differences between a consumer of a computer, and a user. Many developers have
+all sorts of crazy short cut keys set up so that they can use their computer
+solely from the command line without ever having to reach for the mouse. It&#39;s
+vitaly important that you start thinking like a developer, rather than a
+consumer. Getting comfortable with the command line is the first step. If you
+feel like you&#39;re spending too much time on this section, and you&#39;ve
+accomplished the learning objectives, move on.</p>
+
+<h3>Learning Objectives</h3>
+
+<ol>
+<li>Navigate a file structure</li>
+<li>Use your terminal to type commands</li>
+<li>Make files and directories from the command line</li>
+<li>Open files from the command line</li>
+</ol>
+
+<h3>Tasks</h3>
+
+<h3><a href="http://bit.ly/command-line-tutorial" title="Command Line Tutorial Link">Command Line Tutorial</a></h3>
+
+<p><a href="http://bit.ly/command-line-tutorial" title="Command Line Tutorial Link">http://bit.ly/command-line-tutorial</a></p>
+
+<p>A short tutorial on some bash basics written by the wonderful team at Flatiron</p>
+
+<h3><a href="http://teamtreehouse.com/library/console-foundations-2#getting-started-with-the-console" title="Getting Started With the Console Link">Getting Started with the Console</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/console-foundations-2#getting-started-with-the-console" title="Getting Started With the Console Link">http://teamtreehouse.com/library/console-foundations-2#getting-started-with-the-console</a></p>
+
+<h3><a href="http://teamtreehouse.com/library/programming/console-foundations/environment-and-redirection" title="Environment and Redirection Link">Environment and Redirection</a></h3>
+
+<p><a href="http://teamtreehouse.com/library/programming/console-foundations/environment-and-redirection" title="Environment and Redirection Link">http://teamtreehouse.com/library/programming/console-foundations/environment-and-redirection</a></p>
+
+<p><a href="http://teamtreehouse.com/library/console-foundations-2" title="Console Foundation Treehouse Link">Console Foundations</a> is a great video series by Treehouse that
+covers lots of Bash Stuff. Some of it is more advanced, so we only included a
+few sections we feel are crucial. But feel free to skip around. The stuff about
+Environment Variables and PATHS is important. But it&#39;s short and worth going
+through at least once.</p>
+
+<p><br /></p>
+
+<h3>Some Bonus Material</h3>
+
+<p>The following are great resources, they just are a bit advanced and longer. We
+highly recommend you putting in the time to read and go through these examples,
+but don&#39;t worry if they are confusing. Do your best, always.</p>
+
+<h3><a href="http://cli.learncodethehardway.org/book/" title="Learn the Command Line the Hard Way Link">Learn the Command Line the Hard Way</a></h3>
+
+<p><a href="http://cli.learncodethehardway.org/book/" title="Learn the Command Line the Hard Way Link">http://cli.learncodethehardway.org/book/</a></p>
+
+<p>The venerable <a href="http://programming-motherfucker.com/" title="Programming
+Motherfucker">Zed Shaw</a> gives us a short book about your shell. Not the easiest or best
+resource, but it&#39;s still pretty good.</p>
+
+<h3><a href="http://blog.teamtreehouse.com/command-line-basics" title="Command Line Basics">Command Line Basics</a></h3>
+
+<p><a href="http://blog.teamtreehouse.com/command-line-basics" title="Command Line Basics Link">http://blog.teamtreehouse.com/command-line-basics</a></p>
+
+<h2>GIT</h2>
+
+<p><em>Min 1hr Max 4hr</em></p>
+
+<p>Git is a free and open source distributed version control system designed to
+handle everything from small to very large projects with speed and efficiency.</p>
+
+<h3>Learning Objectives</h3>
+
+<ol>
+<li>Have a basic understanding of what version control is</li>
+<li>Understand what git and github are, and how they are different </li>
+<li>Get a working version of Git on your system with your personal identity </li>
+<li>Understand and be able to perfom all basic local Git operations:
+ creating/cloning a repository, making changes, commiting changes, and
+ viewing history</li>
+</ol>
+
+<h3><a href="http://www.codeschool.com/courses/try-git" title="Try Git Link">Try Git</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/try-git">http://www.codeschool.com/courses/try-git</a></p>
+
+<p>Get an introduction to the basic concepts of Git version control.</p>
+
+<h4>WAT?</h4>
+
+<p>What is version control?!</p>
+
+<p>from Github&#39;s &quot;About Version Control&quot; Version control is a system that records
+changes to a file or set of files over time so that you can recall specific
+versions later. Even though the examples in this book show software source code
+as the files under version control, in reality any type of file on a computer
+can be placed under version control.</p>
+
+<h3><a href="http://git-scm.com/book/en/Getting-Started-About-Version-Control">Getting Starting with Version Control</a></h3>
+
+<p><a href="http://git-scm.com/book/en/Getting-Started-About-Version-Control">http://git-scm.com/book/en/Getting-Started-About-Version-Control</a></p>
+
+<p>A beginner guide from the Git Source Control Manual</p>
+
+<h4>Enter Git &amp; Github</h4>
+
+<p>Git is a set of tools for local version control. Github is website that hosts
+your code and allows remote version control.</p>
+
+<h3><a href="http://www.jahya.net/blog/?2013-05-git-vs-github">Difference Between Git and Github</a></h3>
+
+<p><a href="http://www.jahya.net/blog/?2013-05-git-vs-github">http://www.jahya.net/blog/?2013-05-git-vs-github</a></p>
+
+<h3><a href="https://help.github.com/articles/set-up-git">Git Basics and Setup</a></h3>
+
+<p><a href="https://help.github.com/articles/set-up-git">https://help.github.com/articles/set-up-git</a></p>
+
+<p>Now let&#39;s set up your local installation of git so that it knows who you are!</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">git config --global user.name &quot;Sandi Metz&quot;
+git config --global user.email sandimetz@example.com
+</code></pre></div>
+<p>Finally, go to <a href="http://github.com/">Github</a> and create an account if you haven&#39;t yet.</p>
+
+<p><br /></p>
+
+<h3>Some Bonus Material</h3>
+
+<h3><a href="http://www.codeschool.com/courses/git-real">Git Real</a></h3>
+
+<p><a href="http://www.codeschool.com/courses/git-real">http://www.codeschool.com/courses/git-real</a></p>
+
+<p>A more advanced introduction to the core of version control with Git.</p>
+
+<h3><a href="http://gitimmersion.com/">Git Immersion</a></h3>
+
+<p><a href="http://gitimmersion.com/">http://gitimmersion.com/</a></p>
+
+<p>Git Immersion is a guided tour that walks through the fundamentals of Git,
+inspired by the premise that to know a thing is to do it.</p>
+
+<h3><a href="http://git-scm.com/book">The Git Book</a></h3>
+
+<p><a href="http://git-scm.com/book">http://git-scm.com/book</a></p>
+
+<p>The entire Pro Git book, written by Scott Chacon and published by Apress, is available here.</p>
+
+<h3><a href="http://git-scm.com/videos">Git Videos</a></h3>
+
+<p><a href="http://git-scm.com/videos">Git Videos</a></p>
+
+<p>Four videos covering some basics from the creators and maintainers of Git.</p>
+
+<h1>iOS Fundamentals</h1>
+
+<h2>Objective-C</h2>
+
+<p>Objective-C is the language of iOS and it is most likely pretty different than
+what you&#39;ve done before. To get started you just need a bit of knowledge of
+Objective-C, but to really master iOS development you need to get a solid
+understanding of the language. The best Rails developers are also the best Ruby
+developers. The same is true in the Objective-C/iOS world.</p>
+
+<h3>App</h3>
+
+<p>Try and write a todo list app with just <code>NSLog</code> results</p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Message passing with Objective-C</li>
+<li>Comfort with the syntax of Objective-C</li>
+<li>Understanding basic Objects. Instance variabales, Methods, The <code>super</code>
+keyword, etc.</li>
+<li>Working with Data Types</li>
+</ul>
+
+<h3>Tasks</h3>
+
+<ul>
+<li><a href="http://rypress.com/tutorials/objective-c/introduction.html">Intro to Objective-C</a></li>
+<li><a href="http://tryobjectivec.codeschool.com/">Try Objective-C on Code School</a></li>
+<li>Chapter 2 in Learning iOS Development</li>
+</ul>
+
+<h3>Bonus Material</h3>
+
+<ul>
+<li>Programming in Objective-C (5th Edition)
+
+<ul>
+<li>Yup it&#39;s an entire book on Objective-C. It&#39;s a great reference book and
+will make you an expert in Objective-C.</li>
+</ul></li>
+<li><a href="http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html" title="Programming With Objective-C">Programming With
+Objective-C</a></li>
+</ul>
+
+<h2>Basic iOS</h2>
+
+<p>This will get you going to write a super simple app. It&#39;s not going to look
+pretty, but it&#39;ll work.  </p>
+
+<h3>App</h3>
+
+<p>Super simple ToDo list app. It should have a table with todos in it.</p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Understand how to design interactions with Storyboards</li>
+<li>Building interfaces with Interface Builder</li>
+<li>Declaring and Synthesizing properties</li>
+<li>Understand methods in Objective-C</li>
+<li>Understand basics of ARC and memory management</li>
+<li>Familiarity with debugging - you&#39;ll get better at this with practice</li>
+</ul>
+
+<h3>Tasks</h3>
+
+<ul>
+<li><a href="https://www.codeschool.com/courses/try-ios">Try iOS on Code School</a>
+
+<ul>
+<li>Great Introduction to iOS and the view infrastructure</li>
+</ul></li>
+<li>Chapter 3 in Learning iOS Development</li>
+<li><a href="http://mobile.tutsplus.com/tutorials/iphone/nsuserdefaults_iphone-sdk/">Working with NSUserDefaults</a></li>
+</ul>
+
+<h3>Some Bonus Material</h3>
+
+<ul>
+<li>Chapter 13 in Learning iOS Development</li>
+</ul>
+
+<h2>Object Oriented Principles</h2>
+
+<p>The iOS ecosystem relies heavily on a few Object Orientated principles. The
+beginner items covers the stuff that is somewhat unique to iOS. Going further
+you will see these patterns <em>everywhere</em>. </p>
+
+<h3>App</h3>
+
+<p>This is mostly a theory section. Just make sure you fully understand the
+concepts.</p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Understand the Delegate pattern</li>
+<li>Understand the protocol pattern</li>
+</ul>
+
+<h3>Tasks</h3>
+
+<ul>
+<li><a href="http://blog.teamtreehouse.com/ios-design-patterns-delegation-part-2-2">iOS Design Patterns:
+Delegation</a>
+
+<ul>
+<li>Learn the Delegation Pattern. This is used all over the place in iOS.
+For example Core Location, TableViews, MapKit, etc.</li>
+</ul></li>
+<li><a href="http://iosdevelopertips.com/cocoa/introduction-to-protocols.html" title="Intro to Protocols">Intro to
+Protocols</a>
+
+<ul>
+<li>Learn Protocols. These are the things in between the &lt; and &gt; &gt;. Yet
+again, they are everywhere</li>
+</ul></li>
+</ul>
+
+<h3>Bonus Material</h3>
+
+<ul>
+<li><a href="http://www.appcoda.com/objective-c-object-oriented-programming-intro/" title="Intro to Object Oriented Programming">Intro to Object Oriented
+Programming</a></li>
+<li><a href="http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/OOP_ObjC/Introduction/Introduction.html#//apple_ref/doc/uid/TP40005149-CH1-SW2" title="Object-Oriented Programming with Objective-C">OOP with
+Objective-C</a></li>
+<li><a href="http://useyourloaf.com/blog/2010/03/23/using-categories-with-core-data.html" title="Using Categories with Core Data">Using Categories With Core
+Data</a></li>
+<li><a href="http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CocoaFundamentals/CocoaDesignPatterns/CocoaDesignPatterns.html#//apple_ref/doc/uid/TP40002974-CH6-SW6" title="Cocoa Design Fundementals Website">Cocoa Design
+Fundementals</a></li>
+</ul>
+
+<h2>Common UI Tools</h2>
+
+<p>iOS comes with a bunch of common UI objects that get you going quickly. As you
+learn about things such as <code>UINavigationController</code> and <code>UITableView</code> you&#39;ll
+realize that nearly <em>every</em> app utilizes modifications on these simple UI
+controls. Let&#39;s learn these!</p>
+
+<h3>App</h3>
+
+<p>Implement your ToDo List app as a UITableView and tapping on each itme should
+go to a detail view in the nav controller</p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Understand what pushing a ViewController means</li>
+<li>Working with <code>UITableViewDataSource</code> methods</li>
+<li>Working with UITableviews Dynamically and Statically</li>
+</ul>
+
+<h3>Tasks</h3>
+
+<ul>
+<li>Chapter 7 of Learning iOS Development</li>
+<li>Chapter 8 of Learning iOS Development</li>
+</ul>
+
+<h3>Bonus Material</h3>
+
+<ul>
+<li>Chapter 10 of Learning iOS Development</li>
+<li>Chapter 11 of Learning iOS Development</li>
+<li><a href="http://www.raywenderlich.com/22324/beginning-uicollectionview-in-ios-6-part-12">Beginning UICollectionView in iOS 6</a>
+
+<ul>
+<li>Still based of of iOS 6 but <em>very</em> relevant</li>
+</ul></li>
+</ul>
+
+<h1>Dive Deeper</h1>
+
+<h2>Core Location/MapKit</h2>
+
+<p>One of the biggest reasons mobile is such an interesting platform is the
+ability to use location information. Think how much worse your phone would be
+without Google Maps, Yelp, Foursquare, etc. Integrating Core Location is
+actually quite easy.</p>
+
+<p>After you learn how to use CoreLocation you need to learn how to present that
+data with MapKit. MapKit allows integrated maps into your app. The advanced
+section gives you some resources to use Google Maps instead of Apple Maps for
+your integrated map views. Google Maps has some interesting features such as
+Street View support, but it&#39;s very much icing on the cake. Nobody will complain
+if you just use the standard MapKit.</p>
+
+<h3>App</h3>
+
+<p>Add the ability to tag a todo with where it should be completed. Like Buy
+groceries at the grocery store.</p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Use the delegate pattern to receive updates from Core Location</li>
+<li>Drop pins on a MapKit View</li>
+<li>Basic MapKit customizatiosn such as switching between satellite and map
+view.</li>
+<li>Handle the different events of Core Location such as major change, best
+accuracy change, etc.</li>
+</ul>
+
+<h3>Tasks</h3>
+
+<ul>
+<li><a href="http://www.devfright.com/ios-6-core-location-tutorial/">iOS 6 Core Location Tutorial</a>
+
+<ul>
+<li>There was a big change in <code>CoreLocation</code> from iOS 5-&gt; iOS 6. This is an
+updated tutorial</li>
+</ul></li>
+<li><a href="http://www.raywenderlich.com/21365/introduction-to-mapkit-in-ios-6-tutorial">Intro to MapKit in iOS 6</a></li>
+</ul>
+
+<h3>Bonus Material</h3>
+
+<h4>Google Maps SDK</h4>
+
+<ul>
+<li><a href="https://developers.google.com/maps/documentation/ios/start#getting_the_google_maps_sdk_for_ios" title="Official Google Maps Documentation">Official Google Maps
+Documentation</a></li>
+<li><a href="http://weblog.invasivecode.com/post/43675553480/google-maps-api-for-ios-with-interface-builder" title="Gooel Maps for iOS with Interface Builder">Google Maps API for iOS with Interface
+Builder</a></li>
+<li><a href="https://github.com/CocoaPods/Specs/tree/master/GoogleMapsKit" title="Google Maps CocoaPod Github Page">Google Maps
+CocoaPod</a></li>
+</ul>
+
+<h2>Customizing UIKit</h2>
+
+<p>AutoLayout is the new way of defining how your layouts work based on different
+rotations and screen sizes. You are lucky because you will learn AutoLayout from
+the very beginning but sadly The Big Nerd Ranch book doesn&#39;t include information on AutoLayout because it&#39;s
+an iOS 5 book. I&#39;ve included supplementary AutoLayout tutorials because of the
+lack of information in the Big Nerd Ranch book.</p>
+
+<p>Learning how to customize your app&#39;s UI is what separates the good apps from
+the great. Think about all of the apps you use. Do any of them use the standard
+UI elements? Nope. I bet you barely know what the standard iOS controls look
+like. If you&#39;re interested open up the settings or contacts app.</p>
+
+<p>This is a huge topic and much of what you&#39;ll do has been done by others and
+answered on StackOverflow. After you&#39;ve read this information and have specific
+questions search on StackOverflow for answers. Very rarely are you doing
+something completely unique.</p>
+
+<h3>App</h3>
+
+<p>Go ahead and customize your app. Change the tint color, maybe add some custom
+buttons!</p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Be able to style the color/size of major UITableView,UINavigationView and
+UITabBar</li>
+<li>Understand how Views interact with View Controllers</li>
+<li>Understand the View lifecycle</li>
+</ul>
+
+<h3>Tasks</h3>
+
+<ul>
+<li><a href="http://www.raywenderlich.com/20881/beginning-auto-layout-part-1-of-2" title="Beginning Auto Layout">Beginning Auto Layout</a>
+
+<ul>
+<li>Auto Layout is how you can lay out UI elements with differing screen
+sizes. This guide walks you through that.</li>
+</ul></li>
+<li><a href="http://mobile.tutsplus.com/tutorials/iphone/ios-sdk-uikit-theme-customization/" title="Customizing UIKit">Customizing UIKit</a>
+
+<ul>
+<li>Some common UIKit customziations and how to do them.</li>
+</ul></li>
+<li><a href="http://www.appcoda.com/customize-navigation-status-bar-ios-7/">Customizing Nav Bar and Status Bar in iOS 7</a></li>
+</ul>
+
+<h3>Bonus Materials</h3>
+
+<ul>
+<li>Chapter 6 in Learning iOS Development</li>
+</ul>
+
+<h2>Mobile Design</h2>
+
+<p>Different screen size and interactions require different thoughts on design.
+Below are two fantastic resources, but there is always more. </p>
+
+<h3>App</h3>
+
+<p>Do some mockups with paper and pencil on how you cauld enhance the interface.
+In the next section you&#39;ll actually code them. </p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Familiarity with the &quot;Apple way&quot; of designing mobile apps.</li>
+<li>Differences between web design and mobile design</li>
+</ul>
+
+<h3>Tasks</h3>
+
+<ul>
+<li><a href="http://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html" title="Apple Human Interface Guidelines">Apple Human Interface
+Guidelines</a>
+
+<ul>
+<li>Apple posts thei guidelines on good mobile design. You should follow
+these somewhat closely as it provides a consistant UI from app to app</li>
+</ul></li>
+<li><a href="http://taybenlor.com/2013/05/21/designing-for-ios.html" title="Starter&#39;s
+Guide to iOS Design">Starter&#39;s Guide to iOS
+Design</a>
+
+<ul>
+<li>Absolutely incredible guide on how to think about mobile design.</li>
+</ul></li>
+</ul>
+
+<h1>Advanced iOS</h1>
+
+<h2>APIs and Social Media</h2>
+
+<p>Nothing exists in a vacuum. Apps are expected to share effortlessly and backup
+to the cloud. The beginner section has some of the super simple stuff and is
+all you really need to get started. The <a href="http://helios.io/" title="Helios Home
+Page">Helios</a> tutorial shows you how to create a <em>super simple</em> server side backend
+for your iOS app. This is really the absolute simlpest possible solution to
+  syncing your app with the internet</p>
+
+<p>I&#39;m purposefully exposing you to the native iOS SDK networking stack before
+AFNetworking and the other libraries. It&#39;s <em>very</em> hard to debug problems with
+the libraries if you don&#39;t understand the underlying technologies.</p>
+
+<p>Also this has an intermediate section just because this topic is so massive.
+Still stick to the beginner information at first though.</p>
+
+<h3>App</h3>
+
+<p>Add server side syncing to your ToDo list app. Also try and share todos on
+Twitter/facebook</p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Ability to set up and use Helios</li>
+<li>Understand SLComposeViewController</li>
+</ul>
+
+<h3>Bonus Material</h3>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=8wrFn6flYdQ" title="Youtube
+Video of a Mattt Thompson Talk on using Helios">Mattt Thompson: Build an iOS App in 20 Minutes with Rails and
+AFIncrementalStore</a>
+
+<ul>
+<li>Video from a recent conference where Mattt Thompson walks you through
+developing a simple ToDo app with a server side backedn</li>
+</ul></li>
+<li><a href="http://www.appcoda.com/ios-programming-101-integrate-twitter-and-facebook-sharing-in-ios-6/" title="Integrate Twitter and Facebook Sharing in Your App">Integrate Twitter and Facebook Sharing in Your
+App</a>
+
+<ul>
+<li>These are built in to iOS. This tutorial allows you to share your
+content really quickly to Facebook and Twitter</li>
+</ul></li>
+<li><a href="http://blog.goosoftware.co.uk/2013/05/04/subclassing-uiactivity/" title="Subclassing UIActivity Video">Subclassing
+UIActivity</a></li>
+<li><a href="https://devcenter.heroku.com/articles/ios-core-data-buildpack-app" title="Heroku Article on Core Data Buildpack">Building an iOS app with AFIncrementalStore and Core Data Buildpack</a> - This is the howto for Helios</li>
+<li><a href="https://developers.facebook.com/docs/tutorials/ios-sdk-tutorial/show-friends/" title="Getting Started with the facebok SDK">Getting Started with the Facebook
+SDK</a></li>
+<li><a href="http://uiactivities.com/" title="UIActivities
+Home Page">Sharing Providers for UIActivity</a>]</li>
+<li><a href="http://mobile.tutsplus.com/tutorials/iphone/restkit_ios-sdk/" title="Developing RESTful Apps With RestKit">Developing RESTful Apps with
+RestKit</a></li>
+<li><a href="http://mobile.tutsplus.com/tutorials/iphone/ios-sdk_afnetworking/">Networking made easy with
+AFNetworking</a></li>
+<li><a href="http://cleveryou.net/post/51558182158/afnetworking-caching-guide">AFNetworking and
+Caching</a></li>
+</ul>
+
+<h3>Libraries</h3>
+
+<ul>
+<li><a href="https://github.com/AFNetworking/AFNetworking" title="AFNetworking
+Github Page">AFNetworking</a></li>
+<li><a href="http://helios.io/" title="Helios Home Page">Helios</a></li>
+<li><a href="http://restkit.org/" title="RestKit Home Page">RestKit</a></li>
+</ul>
+
+<h3>Social Media SDKs</h3>
+
+<ul>
+<li><a href="https://github.com/baztokyo/foursquare-ios-api" title="Foursquare API
+SDK">Foursquare</a></li>
+<li><a href="https://www.dropbox.com/developers/sync/start/ios" title="Dropbox Sync SDK">Dropbox</a></li>
+<li><a href="https://dev.twitter.com/docs/ios" title="Twitter iOS SDK">Twitter</a></li>
+<li><a href="https://developers.facebook.com/ios/" title="Facebook iOS SDK">Facebook</a></li>
+<li><a href="https://github.com/crino/instagram-ios-sdk" title="Instagram iOS SDK">Instagram</a></li>
+</ul>
+
+<h2>Core Data</h2>
+
+<p>Core Data is a persistent data store. It is not a database. This is seriously
+one of the most confusing technologies in the iOS ecosystem, but it is
+something <em>you must learn</em>. In the integrating with APIs section you&#39;ll learn
+even more about Core Data and how to save both locally and sync up to the
+cloud. Think about all of the apps you use. Most of them can be boiled to down
+to displaying some data that is synced to a service.</p>
+
+<h3>App</h3>
+
+<p>Try and save your ToDos locally using Core Data. </p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Understand how read and write data from the NSManagedObjectContext</li>
+<li>Persistant CoreData to the device using sqlite3</li>
+<li>Work with CoreData with TableViews</li>
+<li>Autogenerate, and extend CoreData Model files
+16 is great for this.</li>
+</ul>
+
+<h3>Advanced</h3>
+
+<ul>
+<li>Chapter 9 of Learning iOS Development</li>
+<li><a href="http://www.amazon.com/Pro-Core-Data-Second-Edition/dp/1430236566/ref=pd_sim_b_26" title="Pro Core Data For iOS">Pro Core Data for
+iOS</a>
+
+<ul>
+<li>Told you it was a big topic.</li>
+</ul></li>
+<li><a href="http://www.raywenderlich.com/934/core-data-tutorial-for-ios-getting-started" title="Core Data Tutorial for iOS: Getting Started">Core Data Tutorial for iOS: Getting
+Started</a>
+
+<ul>
+<li>Practical example on how make a Core Data app. Make sure you read all three parts. The NSFetchedResultsController part
+is super important and how you connect Core Data to UITableViews.</li>
+</ul></li>
+</ul>
+
+<h3>Libraries</h3>
+
+<ul>
+<li><a href="https://github.com/magicalpanda/MagicalRecord" title="Magical
+Record GitHub Page">MagicalRecord</a>
+
+<ul>
+<li>Library that automates a lot of the common CoreData stuff and implements
+some best practices.</li>
+</ul></li>
+</ul>
+
+<h3>Reference</h3>
+
+<ul>
+<li><a href="http://borkware.com/quickies/one?topic=Core%20Data" title="Core Data Quickies">Core Data Quickie</a></li>
+</ul>
+
+<h2>Hardware</h2>
+
+<p>The iPhone/iPad have a pretty cool set of hardware. Let your creativity flow
+with the different hardware features. This is completely different then what
+you&#39;ve done on a computer.</p>
+
+<h3>App</h3>
+
+<p>Add the ability to add pictures to your app.</p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Use the camera</li>
+<li>Change hardware behavior based on hardware availability</li>
+<li>Use the accelerometer and gyro</li>
+</ul>
+
+<h3>Advanced</h3>
+
+<ul>
+<li><a href="http://nscookbook.com/2013/03/ios-programming-recipe-19-using-core-motion-to-access-gyro-and-accelerometer/" title="iOS Programming Recipe 19: Using Core Motion to Access Gyro and Accelerometer">Using Core Motion to Access Gyro and Accelerometer</a></li>
+</ul>
+
+<h3>Core Animation</h3>
+
+<p>Core Animation allows you to access to graphics card to some awesome animations
+and transformations without sacrificing speed. The graphics card was designed
+to do this and it does a great job. With that great power comes great
+responsibility though. iPhone and iPad users expect fluid animations.
+Thankfully, many standard animations you are used to seeing are actually built
+into the iOS SDK and are super easy to integrate.</p>
+
+<h3>App</h3>
+
+<p>Add in some custom animations. Maybe have a cool strike out animation when you
+mark a task as done.</p>
+
+<h3>Learning Objectives</h3>
+
+<ul>
+<li>Understand how the contexts and layers of core animation work</li>
+<li>Know when to use the correct transitions for different interactions.</li>
+</ul>
+
+<h3>Advanced</h3>
+
+<ul>
+<li><a href="http://shop.oreilly.com/product/0636920020356.do" title="Graphics and
+Animation on iOS">Graphics And Animation on
+iOS</a></li>
+<li><a href="http://i.ndigo.com.br/2012/05/ios-uiview-transition-effects/" title="UI
+Transition Effects">UIView Transition
+Effects</a>
+
+<ul>
+<li>Learn the different ways you can transition form view to view and the
+reasons why you choose those transitions.</li>
+</ul></li>
+</ul>
+
+<h2>Xcode</h2>
+
+<p>Xcode is what you develop iOS apps in. A craftsman knows his/her tools. Make
+sure you know yours. This is mostly for reference. No learning objectives or
+app progression here, just some great tips!</p>
+
+<h3>Advanced</h3>
+
+<ul>
+<li><a href="http://mobileorchard.com/14-essential-xcode-tips-tricks-and-resources-for-iphone-devs/">14 Essential Xcode Tips and
+Tricks</a>
+
+<ul>
+<li>After you&#39;ve used Xcode for a while, here are some extra tips I find
+useful</li>
+</ul></li>
+<li><a href="https://github.com/JugglerShu/XVim" title="XVim">XVim</a> 
+
+<ul>
+<li>I use vim on the command line. If you&#39;re like me, this will make your life
+so. much. better</li>
+</ul></li>
+<li>Chapter 14 in Learning iOS Development</li>
+</ul>
+
+<h1>About</h1>
+
+<h2>Credits</h2>
+
+<p>First, we&#39;d love to thank all the amazing people who created these source
+materials. Most of it is from <a href="https://www.codeschool.com/">CodeSchool</a> and
+<a href="http://www.pearsonhighered.com/educator/product/Learning-iOS-Development-A-Handson-Guide-to-the-Fundamentals-of-iOS-Programming/9780321862969.page">Pearson</a>.
+Obviously there are a lot more resources out there for learning these topics.
+This guide is just my current preferences and tries to put them in a linear
+fashion so skills can build upon each other. Hope it helps someone. Oh and the
+theme for the site was purchased from
+<a href="https://wrapbootstrap.com/">WrapBootstrap</a>.</p>
+
+          </div>
+        </div>
+        <div id="footer">
+          <hr>
+          <footer>
+            Copyright &copy; 2013, Flatiron School
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+$(".document").toc ({
+  showAlways:true});
+  </script>
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33578770-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
+
+  <!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+      (function(d,s,i,r) {
+          if (d.getElementById(i)){return;}
+          var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+          n.id=i;n.src='//js.hubspot.com/analytics/'+(Math.ceil(new Date()/r)*r)+'/69751.js';
+          e.parentNode.insertBefore(n, e);
+      })(document,"script","hs-analytics",300000);
+  </script>
+  <!-- End of Async HubSpot Analytics Code -->
+
+  <a href="https://github.com/flatiron-school/prework.flatironschool.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+</body>
+</html>
