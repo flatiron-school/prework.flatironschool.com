@@ -5,19 +5,24 @@ title: Prework
 
 # Overview
 
-At Flatiron School we focus on teaching the things that are difficult for people to
-learn on their own. If you're just getting
-started though, there's a wealth of resources scattered around the web to help
-you out. We've tried to cherry-pick the best of those resources and organize them into distinct learning paths that will help you get started on achieving your goals.
+At Flatiron School we focus on teaching the things that are difficult for
+people to learn on their own. If you're just getting started though, there's a
+wealth of resources scattered around the web to help you out. We've tried to
+cherry-pick the best of those resources and organize them into distinct
+learning paths that will help you get started on achieving your goals.
 
 Each resource has an estimated amount of time it should take you if you have
 zero prior knowledge on the topic. We make suggestions of how much time to
 spend on each section. Try and achieve the learning objectives in the suggested
 time frame, then move on. You can always come back and watch the section again.
 
-Some of the resources have quizes/badges attached. If you'r already familiar with a topic, feel free to pass the quiz and move-on. That being said, even we find ourselves learning new things from the material. 
+Some of the resources have quizes/badges attached. If you'r already familiar
+with a topic, feel free to pass the quiz and move-on. That being said, even we
+find ourselves learning new things from the material. 
 
-These paths are designed around breadth over depth. We feel it's important to get a solid foundation in the broad set of fundamentals within each path before diving deeper into a specific area. Try to read and watch as much as possible.
+These paths are designed around breadth over depth. We feel it's important to
+get a solid foundation in the broad set of fundamentals within each path before
+diving deeper into a specific area. Try to read and watch as much as possible.
 
 # Paths
 
