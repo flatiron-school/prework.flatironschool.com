@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Flatiron School Prework - {{ page.title }}</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="/css/inconsolata.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/highlight.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/toc.css">
+
+    <!-- [if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.toc.js"></script>
+
+    <meta property="og:title" content="Flatiron School Prework" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="http://prework.flatironschool.com" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="Flatiron School Prework" />
+    <meta property="fb:admins" content="8600468" />
+  </head>
+  <body data-spy="scroll" data-target=".sidebar-nav" data-offset="40">
+
+  <div class="fixed sidebar-nav nav hidden-phone">
+    <div class="well">
+      <ul class="nav nav-list sidebar-nav">
+<li style="padding-top: 4px">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://prework.flatironschool.com" data-text="@flatironschool's Prework" data-via="flatironschool" data-related="flatironschool" data-hashtags="learntocode" data-dnt="true">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+          <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=312818082166522";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+
+          <div class="fb-like" data-href="http://prework.flatironschool.com" data-send="false" data-layout="box_count" data-width="55" data-show-faces="false"></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span9" id="content">
+        <div class="row-fluid">
+          <div class="document">
+            {{ content }}
+          </div>
+        </div>
+        <div id="footer">
+          <hr>
+          <footer>
+            Copyright &copy; 2013, Flatiron School
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+$(".document").toc ({
+  showAlways:true});
+  </script>
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33578770-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
+
+  <!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+      (function(d,s,i,r) {
+          if (d.getElementById(i)){return;}
+          var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+          n.id=i;n.src='//js.hubspot.com/analytics/'+(Math.ceil(new Date()/r)*r)+'/69751.js';
+          e.parentNode.insertBefore(n, e);
+      })(document,"script","hs-analytics",300000);
+  </script>
+  <!-- End of Async HubSpot Analytics Code -->
+
+  <a href="https://github.com/flatiron-school/prework.flatironschool.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+</body>
+</html>
