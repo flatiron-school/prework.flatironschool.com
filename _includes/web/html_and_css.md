@@ -22,9 +22,7 @@ The source of all content on the web, HTML is a crucial markup syntax to underst
 
 Now it is time to investigate building a website from scratch. One of our
 instructors, Jon Grover, has an excellent SkillShare class that will take you
-step-by-step through building a responsive static website. *For Flatiron
-Students there is a discount code to take the course for free, please contact
-us.*
+step-by-step through building a responsive static website.
 
 <br />
 
