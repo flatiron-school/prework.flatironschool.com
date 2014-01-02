@@ -16,9 +16,9 @@ The source of all content on the web, HTML is a crucial markup syntax to underst
   9. Rollover Image Sprites
   10. Responsive Layouts
 
-### [Building a HTML and CSS Website From Scratch](http://www.skillshare.com/Build-a-HTML-and-CSS-Website-From-Scratch/1216366887 "Link to Building a HTML and CSS Website From Scratch")
+### [Building a HTML and CSS Website From Scratch](http://skl.sh/1eGffo1 "Link to Building a HTML and CSS Website From Scratch")
 
-[http://www.skillshare.com/Build-a-HTML-and-CSS-Website-From-Scratch/1216366887](http://www.skillshare.com/Build-a-HTML-and-CSS-Website-From-Scratch/1216366887 "Link to Building an HTML and CSS Website From Scratch")
+[http://www.skillshare.com/Build-a-HTML-and-CSS-Website-From-Scratch/1216366887](http://skl.sh/1eGffo1 "Link to Building an HTML and CSS Website From Scratch")
 
 Now it is time to investigate building a website from scratch. One of our
 instructors, Jon Grover, has an excellent SkillShare class that will take you
