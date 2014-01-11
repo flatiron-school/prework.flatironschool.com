@@ -19,7 +19,7 @@
 
 Programming allows you to automate common, repetitive tasks on the computer.
 Developers use programming languages to write software, the software you
-interact with every day. From you alarm clock to your computer; from the web to
+interact with every day. From your alarm clock to your computer; from the web to
 the satellites orbiting our planet, software powers all of it.
 
 Ruby is a programming language that we can use to do any task that needs to be
