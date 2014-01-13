@@ -36,7 +36,7 @@ link. Treehouse will offer something similar soon. You also will need a
 
 You should also have a Rails Development environment setup. There are lots of
 guides for that on the internet and depending on your OS and setup, it's a bit
-of a process. You could always use the cross-platform [Rails Installer](http://railsinstaller.org/).
+of a process. You could always use the cross-platform [Install Rails](http://installrails.com/).
 
 Note to students accepted into the Flatiron School. We will provide you with an
 account to treehouse and codeschool, feel free to use your own to get started,
