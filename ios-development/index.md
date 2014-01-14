@@ -103,7 +103,7 @@ into it and hopefully give you a solution that everyone can use.
 
 # The Basics
 
-{% include general/the_command_line.md %}
+{% include ios/the_command_line.md %}
 
 {% include general/git.md %}
 
