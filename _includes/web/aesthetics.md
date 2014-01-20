@@ -24,3 +24,10 @@ Aesthetic Foundations will cover the elements and principles of art, along with
 color theory. This basic knowledge will provide a design language that enables
 more effective communication amongst designers and other team members.
 
+### [Fundamentals of Design](https://www.codeschool.com/courses/fundamentals-of-design)
+
+[https://www.codeschool.com/courses/fundamentals-of-design](https://www.codeschool.com/courses/fundamentals-of-design)
+
+Improve the visual competency of any website or application by keeping design in 
+mind. Learn the fundamental design principles of typography, color and layout.
+

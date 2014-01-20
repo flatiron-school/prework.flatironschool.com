@@ -44,9 +44,9 @@ This HTML tutorial helps you master HTML. Mastering HTML and its many elements
 is critical for any type of web professional. HTML or "Hyper Text Markup
 Language" describes the basic structure and content of a web page.
 
-### [Advanced HTML5 & CSS3](http://www.codeschool.com/courses/functional-html5-css3 "Advanced HTML5 & CSS3 Link")
+### [Front-End Formations](https://www.codeschool.com/courses/front-end-formations "Front-End Formations Link")
 
-[http://www.codeschool.com/courses/functional-html5-css3](http://www.codeschool.com/courses/functional-html5-css3)
+[https://www.codeschool.com/courses/front-end-formations](https://www.codeschool.com/courses/front-end-formations)
 
 If you are familiar with HTML & CSS already and were able to complete the
 Treehouse unit pretty easily, we recommend you try this unit. Especially if you
