@@ -77,3 +77,9 @@ applications.
 
 In part 2 of Rails for Zombies, you learn even more about how to use this
 amazing framework.
+
+### [Learn Ruby on Rails](http://learn-rails.com/learn-ruby-on-rails.html)
+
+[http://learn-rails.com/learn-ruby-on-rails.html](http://learn-rails.com/learn-ruby-on-rails.html)
+
+Daniel Kehoe has been maintaining amazing Rails tutorial apps at [RailsApp](http://railsapps.github.io/) for a few years now. He's taken the best from these starter apps and compiled them into a great app-driven tutorial.
