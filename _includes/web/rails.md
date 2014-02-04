@@ -61,7 +61,7 @@ billion dollars and build a simple version of Facebook!
 [http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2)
 
 This has long been the best Rails tutorial on the web. Please make sure you are
-using Rails version 4. This is a great project to get a sense of what a
+using Rails version 3.2 This is a great project to get a sense of what a
 beginner web application is. The amount and complexity of the Ruby he uses in
 this tutorial is pretty minimal but you can start to get a sense of what Ruby
 it'd be useful to know to be able to feel comfortable building web
@@ -77,3 +77,9 @@ applications.
 
 In part 2 of Rails for Zombies, you learn even more about how to use this
 amazing framework.
+
+### [Learn Ruby on Rails](http://learn-rails.com/learn-ruby-on-rails.html)
+
+[http://learn-rails.com/learn-ruby-on-rails.html](http://learn-rails.com/learn-ruby-on-rails.html)
+
+Daniel Kehoe has been maintaining amazing Rails tutorial apps at [RailsApp](http://railsapps.github.io/) for a few years now. He's taken the best from these starter apps and compiled them into a great app-driven tutorial.
