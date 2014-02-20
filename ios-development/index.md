@@ -109,6 +109,8 @@ into it and hopefully give you a solution that everyone can use.
 
 # iOS Fundamentals
 
+Below is a ton of reading. If you are more a auditory/video listener I have a skillshare course that introduces you to the iOS ecosystem and objective-c. You can find it on skillshare [here](http://skl.sh/19i7oN9). If you are a flatiron student, please email us for the class for free!
+
 {% include ios/objective_c.md %}
 
 {% include ios/basic_ios.md %}
