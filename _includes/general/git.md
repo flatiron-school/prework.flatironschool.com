@@ -10,7 +10,7 @@ handle everything from small to very large projects with speed and efficiency.
   2. Understand what git and github are, and how they are different
   3. Get a working version of Git on your system with your personal identity
   4. Understand and be able to perfom all basic local Git operations:
-     creating/cloning a repository, making changes, commiting changes, and
+     creating/cloning a repository, making changes, commiting changes, merging/pulling changes and
      viewing history
 
 ### [Try Git](http://www.codeschool.com/courses/try-git "Try Git Link")
