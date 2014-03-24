@@ -7,10 +7,10 @@ handle everything from small to very large projects with speed and efficiency.
 ### Learning Objectives
 
   1. Have a basic understanding of what version control is
-  2. Understand what git and github are, and how they are different 
-  3. Get a working version of Git on your system with your personal identity 
+  2. Understand what git and github are, and how they are different
+  3. Get a working version of Git on your system with your personal identity
   4. Understand and be able to perfom all basic local Git operations:
-     creating/cloning a repository, making changes, commiting changes, and
+     creating/cloning a repository, making changes, commiting changes, merging/pulling changes and
      viewing history
 
 ### [Try Git](http://www.codeschool.com/courses/try-git "Try Git Link")
@@ -22,13 +22,13 @@ Get an introduction to the basic concepts of Git version control.
 #### WAT?
 What is version control?!
 
-from Github's "About Version Control" Version control is a system that records
+Github's "About Version Control" Version control is a system that records
 changes to a file or set of files over time so that you can recall specific
 versions later. Even though the examples in this book show software source code
 as the files under version control, in reality any type of file on a computer
 can be placed under version control.
 
-### [Getting Starting with Version Control](http://git-scm.com/book/en/Getting-Started-About-Version-Control)
+### [Getting Started with Version Control](http://git-scm.com/book/en/Getting-Started-About-Version-Control)
 
 [http://git-scm.com/book/en/Getting-Started-About-Version-Control](http://git-scm.com/book/en/Getting-Started-About-Version-Control)
 
