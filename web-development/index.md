@@ -13,7 +13,7 @@ breadth over depth. Rather than honing in on ruby, the meat of our curriculum,
 a lot of time was spent on HTML and CSS which is an important but secondary
 piece.
 
-We strongly belive that learning should have context, and you should know what
+We strongly believe that learning should have context, and you should know what
 your goals are.  Each section will address which learning objectives it will
 cover, and at the beginning we expect all of you to check out the Ruby
 assesment so you know what you'll be expected to do at the end.  There's an
