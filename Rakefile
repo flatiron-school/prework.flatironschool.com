@@ -18,7 +18,7 @@ task :deploy do
   `git remote update > /dev/null 2>&1`
   diff = `git rev-list HEAD...origin/master --count`.to_i
   if diff != 0
-    puts "You must pull changes before deploying."
+    puts "You must pull and push changes before deploying."
   else
     current_dir = Dir.pwd
     commit_message = IO.popen("git log -1 --pretty=%B").
@@ -46,7 +46,7 @@ task :deploy do
     `cp -r ../tmp/ ./`
     `rm -rf ../tmp > /dev/null 2>&1`
     puts "Deploying..."
-    `git add --all && git commit -m "#{commit_message}" --quiet && git push origin gh-pages --quiet`
+    `git add --all && git commit -m "#{commit_message}" --quiet && git push -f origin gh-pages --quiet`
     `git checkout master --quiet`
     `cd #{current_dir}`
     puts "Done."
