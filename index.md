@@ -16,7 +16,7 @@ zero prior knowledge on the topic. We make suggestions of how much time to
 spend on each section. Try and achieve the learning objectives in the suggested
 time frame, then move on. You can always come back and watch the section again.
 
-Some of the resources have quizes/badges attached. If you'r already familiar
+Some of the resources have quizes/badges attached. If you're already familiar
 with a topic, feel free to pass the quiz and move-on. That being said, even we
 find ourselves learning new things from the material. 
 
