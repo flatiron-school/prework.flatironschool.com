@@ -28,10 +28,10 @@ and
 [CodeSchool](http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==)
 account. They
 are each normally $25 a month, so figure you might spend $50-$100 depending on
-how quickly you get through the material. So far the fine folks at
+how quickly you get through the material. 
 [CodeSchool](http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==)
-have created a $9 trial month for all Flatiron Preworkers. Register using that
-link. Treehouse will offer something similar soon. You also will need a
+has created a $9 trial month for all Flatiron Preworkers. Register using that
+link. Treehouse has an extended 30 day free trial through this [link](http://www.shareasale.com/r.cfm?b=456118&u=850011&m=43811&urllink=&afftrack=f). You also will need a
 [CodeAcademy](http://codeacademy.com/) account which is free.
 
 You should also have a Rails Development environment setup. There are lots of
