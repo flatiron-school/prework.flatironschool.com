@@ -65,6 +65,18 @@ Finally, go to [Github](http://github.com/) and create an account if you haven't
 
 A more advanced introduction to the core of version control with Git.
 
+### [Git Real 2](http://www.codeschool.com/courses/git-real-2)
+
+[http://www.codeschool.com/courses/git-real-2](http://www.codeschool.com/courses/git-real-2)
+
+Learn advanced Git by practicing Git version control with Git Real 2. Continue to increase your Git skills by learning more advanced systems within Git.
+
+### [Mastering GitHub](http://www.codeschool.com/courses/mastering-github)
+
+[https://www.codeschool.com/courses/mastering-github](https://www.codeschool.com/courses/mastering-github)
+
+Learn advanced tips, tricks, and proven best practices for collaborating more effectively with GitHub.
+
 ### [Git Immersion](http://gitimmersion.com/)
 
 [http://gitimmersion.com/](http://gitimmersion.com/)
