@@ -5,7 +5,7 @@ The command line is your home base. It's probably one of the most important
 differences between a consumer of a computer, and a user. Many developers have
 all sorts of crazy short cut keys set up so that they can use their computer
 solely from the command line without ever having to reach for the mouse. It's
-vitaly important that you start thinking like a developer, rather than a
+vitally important that you start thinking like a developer, rather than a
 consumer. Getting comfortable with the command line is the first step. If you
 feel like you're spending too much time on this section, and you've
 accomplished the learning objectives, move on.
