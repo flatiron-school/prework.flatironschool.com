@@ -87,7 +87,7 @@ hours before getting your hands dirty. The goal is layers of quality. After the
 first section you will be able to write simple apps. Every new topic you learn
 will give you real skills to enhance your app. This means that if you are
 struggling with one topic it may be prudent to stay in that one topic and learn
-more. If you find other resources that helped you learn please raise and issue
+more. If you find other resources that helped you learn, please raise an issue
 and I'll include it.
 
 ## Getting Help
