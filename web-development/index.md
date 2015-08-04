@@ -5,8 +5,8 @@ title: Web Development
 
 # Web Development
 
-The first version of the prework we tried to assemble all of the best resources
-for learning to build a web application in Rails. With our students, we noticed
+For the first version of the pre-work, we tried to assemble all of the best resources
+for learning to build a web application in Rails. When working with our students, we noticed
 that the pre-work wasn't preparing them as well as it could have. We were
 missing a big opportunity. Our students expressed that the pre-work went for
 breadth over depth. Rather than honing in on ruby, the meat of our curriculum,
@@ -16,43 +16,42 @@ piece.
 We strongly belive that learning should have context, and you should know what
 your goals are.  Each section will address which learning objectives it will
 cover, and at the beginning we expect all of you to check out the Ruby
-assesment so you know what you'll be expected to do at the end.  There's an
-infinite amount of things you could spend your time learning, part of the value
-of the prework is that we can narrow the scope to only the most essential.  If
+assessment so you know what you'll be expected to do at the end.  There's an
+infinite number of things you could spend your time learning; part of the value
+of the pre-work is that we can narrow the scope down to only the most essential.  If
 you can achieve fluency in the following topics we believe you'll flourish at
 the Flatiron School.
 ## Setup
 
-To complete these units, you will need a [Treehouse](http://teamtreehouse.com/)
+To complete these units, you will need accounts at [Treehouse](http://teamtreehouse.com/)
 and
-[CodeSchool](http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==)
-account. They
-are each normally $25 a month, so figure you might spend $50-$100 depending on
+[CodeSchool](http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==). They
+are each normally $25 a month, so plan to spend $50-$100 depending on
 how quickly you get through the material. So far the fine folks at
 [CodeSchool](http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==)
-have created a $9 trial month for all Flatiron Preworkers. Register using that
+have created a $9 trial month for all Flatiron Pre-Workers. Register using that
 link. Treehouse will offer something similar soon. You also will need a
 [CodeAcademy](http://codeacademy.com/) account which is free.
 
-You should also have a Rails Development environment setup. There are lots of
-guides for that on the internet and depending on your OS and setup, it's a bit
-of a process. You could always use the cross-platform [Install Rails](http://installrails.com/).
+You should also have a Rails Development environment setup. There are many
+guides on this topic on the internet, and depending on your OS and setup, learning it is a bit
+of a process. You could always use the cross-platform IDE [Install Rails](http://installrails.com/).
 
-Note to students accepted into the Flatiron School. We will provide you with an
-account to treehouse and codeschool, feel free to use your own to get started,
-but we cover those costs for the duration of the prework and semester.
+Note to students accepted into the Flatiron School: We will give you
+accounts for Treehouse and CodeSchool. Feel free to use your own accounts to get started,
+but we cover those costs for the duration of the pre-work and semester.
 
 ## Thoughts
 
-One of the challenges in learning how to code is that you probably don't even
-know what you're supposed to learn. When creating this prework, we had 4 goals
-in mind.
+One of the challenges when learning to code is that you probably don't even
+know what you're supposed to learn. When creating this pre-work, we had four goals
+in mind:
 
   1. **Full Stack**
 
   We'll present the full stack of technologies required to build a webapp from
   the ground up. We don't care if you use ERB or HAML. The web is built on HTML
-  and everyone should learn it. Whether NoSQL or RDBMS, understanding the
+  and everyone should learn it. Whether you plan to use NoSQL or RDBMS data storage, understanding the
   fundamentals of schema design and SQL is crucial. Students shouldn't shy away
   from depth. How can you be a web developer without a proficiency in these
   skills?
@@ -169,7 +168,7 @@ most of the databases we will be using, SQL.
 
 First, we'd love to thank all the amazing people who created these source
 materials. Most of it is from CodeSchool and Treehouse, with a bit from Zed
-Shaw, and some from the people at Skillcrush. Obviously there are a lot more
+Shaw, and some from the people at Skillcrush. Obviously, there are a lot more
 resources out there for learning these topics. This guide is just my current
 preferences and tries to put them in a linear fashion so skills can build upon
 each other. Hope it helps someone. Oh and the theme for the site was purchased
